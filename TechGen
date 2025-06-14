@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Be TechGen - Cloud Innovation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f2f5;
+    }
+    header {
+      background-color: #004466;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #006699;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #00557a;
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .section img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+    .button-link {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #004466;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .button-link:hover {
+      background-color: #006699;
+    }
+    footer {
+      background: #004466;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Be TechGen</h1>
+    <p>Driving the Future of Cloud Technology</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#product">Product</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="container">
+    <section class="section" id="about">
+      <h2>About Be TechGen</h2>
+      <p>Be TechGen is a leading software company that focuses on delivering cutting-edge cloud-based solutions. Established with a mission to transform digital infrastructures, we empower businesses to scale securely and efficiently.</p>
+      <img src="https://source.unsplash.com/1600x900/?technology,cloud" alt="Cloud technology image" />
+    </section>
+
+    <section class="section" id="product">
+      <h2>Our Product - CL-578</h2>
+      <p>CL-578 is our flagship cloud infrastructure product designed for high performance, reliability, and scalability. It offers secure storage, real-time computing, and seamless integration with enterprise systems.</p>
+      <img src="https://source.unsplash.com/1600x900/?data-center,servers" alt="Cloud infrastructure image" />
+      <a href="https://betechgen.com/cl578" target="_blank" class="button-link">Learn More</a>
+    </section>
+
+    <section class="section" id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Cloud Migration & Consulting</li>
+        <li>Enterprise SaaS Solutions</li>
+        <li>Custom Software Development</li>
+        <li>24/7 Technical Support</li>
+      </ul>
+      <img src="https://source.unsplash.com/1600x900/?programming,cloud-services" alt="Services image" />
+      <a href="https://betechgen.com/services" target="_blank" class="button-link">Explore Services</a>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: support@betechgen.com<br>
+      Location: Bengaluru, India</p>
+      <img src="https://source.unsplash.com/1600x900/?contact,tech" alt="Contact image" />
+      <a href="mailto:support@betechgen.com" class="button-link">Email Us</a>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2025 Be TechGen. All rights reserved.</p>
+  </footer>
+</body>
+</html>
